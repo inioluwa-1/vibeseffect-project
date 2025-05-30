@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-wedding',
   imports: [RouterLink],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './wedding.component.html',
+  styleUrl: './wedding.component.css'
 })
-export class HomeComponent {
+export class WeddingComponent {
    ngOnInit () {
     window.scrollTo(0, 0);
   }

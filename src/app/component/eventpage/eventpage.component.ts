@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-eventpage',
   imports: [RouterLink],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './eventpage.component.html',
+  styleUrl: './eventpage.component.css'
 })
-export class HomeComponent {
+export class EventpageComponent {
    ngOnInit () {
     window.scrollTo(0, 0);
   }
